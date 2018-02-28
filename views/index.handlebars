@@ -5,20 +5,20 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers devoured=true}}
+      {{ burgers devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
 <h2>Burgers in your stomach!</h2>
 
-<ul>
+{{!-- <ul>
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers sleep=false}}
     {{/if}}
   {{/each}}
-</ul>
+</ul> --}}
 
 <h2>Add a Burger</h2>
 <form class="create-form">
