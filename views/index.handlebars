@@ -4,22 +4,14 @@
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-
-    {{/if}}
-    {{/unless}}
+  <p>
+    {{burgersArray}}
+  </p>
   {{/each}}
 </ul>
 
 <h2>Burgers in your stomach!</h2>
 
-{{!-- <ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers sleep=false}}
-    {{/if}}
-  {{/each}}
-</ul> --}}
 
 <h2>Add a Burger</h2>
 <form class="create-form">
